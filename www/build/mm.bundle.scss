@@ -1839,29 +1839,6 @@ $bar-side-menu-text-color: $bar-content-text !default;
     padding-bottom: 16px;
 }
 
-.mm-site_frontpage {
-    .mma-frontpage-item-container .item-media {
-        min-height: 55px;
-        padding-left: 54px;
-
-        img {
-            top: 11px;
-            left: 11px;
-        }
-    }
-
-    .mm-frontpageitemnews {
-        img {
-            max-width: 30px;
-            max-height: 30px;
-        }
-
-        .mm-module-buttons {
-            width: 30px;
-            height: 22px;
-        }
-    }
-}
 .mm-site_coursesgrades .item .badge {
   right: 16px;
 }
@@ -1961,6 +1938,29 @@ $mma-messages-date-badge: "stable" !default;
   text-align: center;
 }
 
+.mm-site_frontpage {
+    .mma-frontpage-item-container .item-media {
+        min-height: 55px;
+        padding-left: 54px;
+
+        img {
+            top: 11px;
+            left: 11px;
+        }
+    }
+
+    .mm-frontpageitemnews {
+        img {
+            max-width: 30px;
+            max-height: 30px;
+        }
+
+        .mm-module-buttons {
+            width: 30px;
+            height: 22px;
+        }
+    }
+}
 
 $mma-mod-assign-warning-color:      #c00 !default;
 
